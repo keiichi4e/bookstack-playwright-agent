@@ -1,0 +1,31 @@
+{
+  "name": "bookstack-playwright-agent",
+  "version": "1.0.0",
+  "description": "Playwright Test Agent-generated UI tests for Bookstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keiichi4e/bookstack-playwright-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keiichi4e/bookstack-playwright-agent/issues"
+  },
+  "homepage": "https://github.com/keiichi4e/bookstack-playwright-agent#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}
