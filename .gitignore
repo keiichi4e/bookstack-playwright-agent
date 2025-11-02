@@ -4,5 +4,6 @@ dist/
 test-results/
 playwright-report/
 playwright/.cache/
+.playwright/
 *.log
 .DS_Store
